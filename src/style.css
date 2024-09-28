@@ -1,1 +1,25 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 325px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 96px;
+}
+
+.hearts,
+.diamonds {
+  color: red;
+}
+
+.spades,
+.clubs {
+  color: black;
+}
+#card-bottom {
+  transform: rotate(180deg);
+}
+
+#card-value {
+  color: black;
+}
